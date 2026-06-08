@@ -12,11 +12,12 @@ The project implements and compares three primary architectures:
 - Comprehensive Preprocessing: Handle missing values, perform feature engineering, and apply one-hot encoding.
 - Exploratory Data Analysis: Gain insights into patient demographics and clinical factors.
 - Model Benchmarking: Evaluate performance across three distinct models.
-- Optimisation: Improve model metrics through hyperparameter tuning.
+- Hyperparameter Optimisation: Improve model metrics through hyperparameter tuning.
 
 ### Notebook Structure
 - Data Loading
-- Data Analysis & Cleaning
+- Data Analysis
+- Data Cleaning & Preprocessing
 - Exploratory Data Analysis
 - Model Training & Testing: split into three cases:
     - Case 1: Baseline models using StandardScaler.
