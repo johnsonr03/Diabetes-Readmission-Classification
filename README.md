@@ -1,7 +1,7 @@
 # Diabetes Readmission Prediction
 
 ### Overview
-This project aimed to predict 30 day readmission among diabetic patients using Logistic Regression, Random Forest, and XGBoost models. The data preprocessing encompassed treating missing values, feature engineering, and one-hot encoding categorical features. Models were evaluated under three scenarios: with StandardScaler, with StandardScaler + SMOTE for class imbalance, and with hyperparameter tuning using RandomizedSearchCV. Finally, SHAP was utilised to interpret the best performing model, providing valuable insights into feature importance and their individual model prediction contributions. This prediction is critical for healthcare providers to intervene proactively, improve patient care, reduce hospital readmission rates, and achieve better health outcomes.
+This project aimed to predict 30-day readmission among diabetic patients using Logistic Regression, Random Forest, and XGBoost models. The data preprocessing encompassed treating missing values, feature engineering, and one-hot encoding categorical features. Models were evaluated under three scenarios: with StandardScaler, with StandardScaler + SMOTE for class imbalance, and with hyperparameter tuning using RandomizedSearchCV. Finally, SHAP was utilised to interpret the best-performing model, providing valuable insights into feature importance and the contributions of individual features to model predictions. This prediction is critical for healthcare providers to intervene proactively, improve patient care, reduce hospital readmission rates, and achieve better health outcomes.
 
 The project implements and compares three primary architectures:
 - Logistic Regression
